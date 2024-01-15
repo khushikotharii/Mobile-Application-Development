@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="260dp"
+        android:layout_height="100dp"
+        android:src="@drawable/applogonobg"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:hint="Email"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="330dp"/>
+
+    <EditText
+        android:id="@+id/pwd"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_below="@id/newuser"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="480dp"
+        android:background="#FFCCCC"
+        android:text="Login"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/newuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:text="New User? Register!"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

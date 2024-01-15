@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1051541589203",
+    "project_id": "hiddenpixel-7dd83",
+    "storage_bucket": "hiddenpixel-7dd83.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051541589203:android:ef88eb7d7c31223fae1826",
+        "android_client_info": {
+          "package_name": "com.example.loginregister"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzrxt8Qb1sCACiNfKL-Epj34iaMSU29fE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

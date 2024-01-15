@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NMIMS"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:id="@+id/tv1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+
+    <ImageView
+        android:layout_width="600dp"
+        android:layout_height="200dp"
+        android:id="@+id/iv1"
+        android:layout_below="@id/tv1"
+        android:src="@drawable/img"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Employee Name"
+        android:id="@+id/ed1"
+        android:layout_marginTop="300dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Employee Number"
+        android:id="@+id/ed2"
+        android:layout_marginTop="360dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Employee Department"
+        android:id="@+id/ed3"
+        android:layout_marginTop="420dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b1"
+        android:text="Save"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="500dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b2"
+        android:text="Display"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="500dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b3"
+        android:text="Update"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="600dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b4"
+        android:text="Delete"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="600dp"/>
+
+
+
+</RelativeLayout>

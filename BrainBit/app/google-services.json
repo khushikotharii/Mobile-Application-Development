@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "815400832229",
+    "project_id": "brainbit-a0b31",
+    "storage_bucket": "brainbit-a0b31.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815400832229:android:f9f9ac4dc1ce6d14dfd80c",
+        "android_client_info": {
+          "package_name": "com.example.brainbit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8V6o-IQ7HJKEV0-zrHp1zIcYXJcgvXyE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
